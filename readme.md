@@ -10,27 +10,27 @@
   ~~~
 
 3. Create a __package.json__. 
+  
   Run `npm ini`.
 
   Set the *name* and *description* properties. The other propierties you can leave blank.
     
-    ~~~
-    name : example-babel.
-    description : Use Babel to transpile JavaScript ES6 to ES5.
-    ~~~
+  ```javascript
+  name : example-babel.
+  description : Use Babel to transpile JavaScript ES6 to ES5.
+  ```
     
 4. Create a directory *src* to copy your __code ES6__ inside.
 
   `mkdir src`
 
-5. Install the packages:
+5. Install the __packages__:
 
   Run to install the Babel command line package.
   `npm install babel-cli -D`
 
   Run to install the Babel preset environment package.
   `npm install babel-preset-env -D`
-
 
   You can run to install all the packages at the same time.
 
@@ -49,10 +49,10 @@
   babel-preset-es2015 is a Babel preset for all es2015 plugins.
 
 6. Create the file __.babelrc.__ To do this.
-  - Create an archive txt.
-  - Rename the archive. Run rename new.txt .babelrc
+  - Create an *archive txt.*
+  - Rename the archive. Run `rename new.txt .babelrc`
 
-7. Inside the archive .babelrc add an object that specifies the preset:
+7. Inside the archive .babelrc add an object that specifies the __preset__:
 
   We can use
   
@@ -70,7 +70,7 @@
   }
   ```
   
-8. Configure the property script inside package.json. This property contains an object "test". Below the tehs add the object "build"
+8. Configure the property __scripts__ inside package.json. This property contains an object "test". Below the tehs add the object "build".
    
   ```javascript
   "scripts": {
@@ -86,6 +86,6 @@
   
   __lib__ — Babel writes the transpiled code to a directory called lib.
 
-9. Transpile the ES6+ code to lib using the build command.
+9. __Transpile__ the ES6+ code to lib using the build command.
   
   `npm run build`

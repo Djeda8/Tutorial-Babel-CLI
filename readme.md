@@ -14,10 +14,10 @@
 
   Set the *name* and *description* properties. The other propierties you can leave blank.
     
-    ```javascript
+    ~~~
     name : example-babel.
     description : Use Babel to transpile JavaScript ES6 to ES5.
-    ```
+    ~~~
     
 4. Create a directory *src* to copy your __code ES6__ inside.
 
@@ -78,10 +78,13 @@
   }
   ```
 
-  *babel* — The Babel command call responsible for transpiling code.
-  *src* — Instructs Babel to transpile all JavaScript code inside the src directory.
-  *-d* — Instructs Babel to write the transpiled code to a directory.
-  *lib* — Babel writes the transpiled code to a directory called lib.
+  __babel__ — The Babel command call responsible for transpiling code.
+  
+  __src__ — Instructs Babel to transpile all JavaScript code inside the src directory.
+  
+  __-d__ — Instructs Babel to write the transpiled code to a directory.
+  
+  __lib__ — Babel writes the transpiled code to a directory called lib.
 
 9. Transpile the ES6+ code to lib using the build command.
   

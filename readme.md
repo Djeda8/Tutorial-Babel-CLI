@@ -9,14 +9,16 @@
   cd BabelJS
   ~~~
 
-3. Create a __package.json__. Run `npm ini`.
+3. Create a __package.json__. 
+  Run `npm ini`.
 
   Set the *name* and *description* properties. The other propierties you can leave blank.
-
-    * *name* : example-babel.
-  
-    * *description* : Use Babel to transpile JavaScript ES6 to ES5.
-
+    
+    ```javascript
+    name : example-babel.
+    description : Use Babel to transpile JavaScript ES6 to ES5.
+    ```
+    
 4. Create a directory *src* to copy your __code ES6__ inside.
 
   `mkdir src`
@@ -74,12 +76,12 @@
   "scripts": {
     "build": "babel src -d dist"
   }
-  ```javascript
+  ```
 
-  babel — The Babel command call responsible for transpiling code.
-  src — Instructs Babel to transpile all JavaScript code inside the src directory.
-  -d — Instructs Babel to write the transpiled code to a directory.
-  lib — Babel writes the transpiled code to a directory called lib.
+  *babel* — The Babel command call responsible for transpiling code.
+  *src* — Instructs Babel to transpile all JavaScript code inside the src directory.
+  *-d* — Instructs Babel to write the transpiled code to a directory.
+  *lib* — Babel writes the transpiled code to a directory called lib.
 
 9. Transpile the ES6+ code to lib using the build command.
   

@@ -47,8 +47,8 @@
   babel-preset-es2015 is a Babel preset for all es2015 plugins.
 
 6. Create the file __.babelrc.__ To do this.
-  1. Create an archive txt.
-  2. Rename the archive. Run rename new.txt .babelrc
+  - Create an archive txt.
+  - Rename the archive. Run rename new.txt .babelrc
 
 7. Inside the archive .babelrc add an object that specifies the preset:
 

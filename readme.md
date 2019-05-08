@@ -41,11 +41,16 @@
   If you run `npm install` you can install all the package listed in desDependencies.
 
 
-  --save-dev is used to save the package for development purpose. Example: unit tests, minification..
+  --save-dev is used to save the package for development purpose. Example: unit tests, minification.
+  
   --save is used to save the package required for the application to run.
+  
   babel-core is Babel compiler core.
+  
   babel-cli is Babel command line Babel tools.
+  
   babel-env is a Babel preset that compiles ES2015+ down to ES5 by automatically determining the Babel plugins and polyfills you need based on your targeted browser or runtime environments.
+  
   babel-preset-es2015 is a Babel preset for all es2015 plugins.
 
 6. Create the file __.babelrc.__ To do this.
